@@ -1,4 +1,5 @@
 package Greedy;
+//동전 0
 
 //방법 1 : [Scanner + StringBuilder]
 //import java.util.Scanner;

@@ -2,7 +2,7 @@ package Mathematics;
 
 import java.util.Scanner;
 // 평균
-public class Main {
+public class P1546_평균 {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);

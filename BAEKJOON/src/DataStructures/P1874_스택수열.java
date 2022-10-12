@@ -1,7 +1,9 @@
+package DataStructures;
+
 import java.util.Scanner;
 import java.util.Stack;
 // 스택 수열
-public class Main {
+public class P1874_스택수열 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

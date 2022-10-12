@@ -2,7 +2,7 @@ package Implementation;
 
 import java.util.Scanner;
 // OX퀴즈
-public class Main {
+public class OXQuiz {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

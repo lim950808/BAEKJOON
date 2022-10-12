@@ -1,6 +1,8 @@
+package Mathematics;
+
 import java.util.Scanner;
 // 수들의 합 5
-public class Main {
+public class P2018_수들의합5 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

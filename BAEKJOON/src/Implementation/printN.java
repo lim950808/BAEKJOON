@@ -1,19 +1,19 @@
 package Implementation;
 
 import java.io.*;
-//N Âï±â
-class pringN {
+//N ï¿½ï¿½ï¿½
+public class printN {
 	
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		int N = Integer.parseInt(br.readLine()); //ÀÔ·Â
+		int N = Integer.parseInt(br.readLine()); //ï¿½Ô·ï¿½
 		
-		//1ºÎÅÍ N±îÁö ÇÑ ÁÙ¿¡ ÇÏ³ª¾¿ Ãâ·Â
+		//1ï¿½ï¿½ï¿½ï¿½ Nï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ù¿ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 		for(int i=1; i<=N; i++) {
-			bw.write(String.valueOf(i)); //Ãâ·Â
+			bw.write(String.valueOf(i)); //ï¿½ï¿½ï¿½
 			bw.newLine();
 		}
 		

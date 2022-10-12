@@ -1,10 +1,11 @@
+package SlidingWindow;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 // DNA 비밀번호
-public class Main {
+public class DNAPassword {
     static int checkArr[];
     static int myArr[];
     static int checkSecret;

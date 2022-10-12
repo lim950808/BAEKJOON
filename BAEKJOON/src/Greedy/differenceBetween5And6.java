@@ -1,30 +1,30 @@
 package Greedy;
-//5¿Í 6ÀÇ Â÷ÀÌ
+//5ï¿½ï¿½ 6ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class differenceBetween5And6 {
+public class differenceBetween5And6 {
 
 	public static void main(String[] args) throws IOException {
 		
-		//1.µÎ ¼ö ÀÔ·Â
+		//1.ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		//2.replaceÇÔ¼ö·Î 6À» 5·Î ¹®ÀÚ¿­ Ä¡È¯ÇØ¼­ ÃÖ¼Ò°ª ¸¸µé±â
+		//2.replaceï¿½Ô¼ï¿½ï¿½ï¿½ 6ï¿½ï¿½ 5ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ Ä¡È¯ï¿½Ø¼ï¿½ ï¿½Ö¼Ò°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 		String a = st.nextToken().replace('6', '5');
 		String b = st.nextToken().replace('6', '5');
 		
-		//3.ÃÖ¼Ò°ª Ãâ·Â
+		//3.ï¿½Ö¼Ò°ï¿½ ï¿½ï¿½ï¿½
 		System.out.print(Integer.parseInt(a) + Integer.parseInt(b)+" ");
 		
-		//4.replaceÇÔ¼ö·Î 5¸¦ 6À¸·Î Ä¡È¯ÇØ¼­ ÃÖ´ë°ª ¸¸µé±â
+		//4.replaceï¿½Ô¼ï¿½ï¿½ï¿½ 5ï¿½ï¿½ 6ï¿½ï¿½ï¿½ï¿½ Ä¡È¯ï¿½Ø¼ï¿½ ï¿½Ö´ë°ª ï¿½ï¿½ï¿½ï¿½ï¿½
 		a = a.replace('5', '6');
 		b = b.replace('5', '6');
 		
-		//5.ÃÖ´ë°ª Ãâ·Â
+		//5.ï¿½Ö´ë°ª ï¿½ï¿½ï¿½
 		System.out.print(Integer.parseInt(a)+Integer.parseInt(b));
 		
 	}

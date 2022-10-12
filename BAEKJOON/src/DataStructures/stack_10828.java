@@ -1,6 +1,6 @@
 package DataStructures;
 
-//¹æ¹ý 1 : [BufferedReader + StringBuilder]
+//ï¿½ï¿½ï¿½ 1 : [BufferedReader + StringBuilder]
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -95,10 +95,10 @@ public class stack_10828 {
 	
 }
 
-//¹æ¹ý 2 : [Scanner + StringBuilder] => ½Ã°£ÀÌ ´õ ¿À·¡ °É¸®°í ¸Þ¸ð¸®µµ ´õ Â÷ÁöÇÔ.
+//ï¿½ï¿½ï¿½ 2 : [Scanner + StringBuilder] => ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¸ï¿½ï¿½ï¿½ ï¿½Þ¸ð¸®µï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 /*
 import java.util.Scanner;
-public class Main {
+public class P11286_ì ˆëŒ“ê°’íž™ {
 
 	public static int[] stack;
 	public static int size = 0;

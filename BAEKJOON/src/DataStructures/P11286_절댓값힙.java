@@ -1,9 +1,11 @@
+package DataStructures;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 // 절댓값 힙
-public class Main {
+public class P11286_절댓값힙 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

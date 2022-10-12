@@ -1,8 +1,10 @@
+package DataStructures;
+
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Scanner;
 // 카드2
-public class Main {
+public class P2164_카드2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

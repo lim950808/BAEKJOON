@@ -1,5 +1,5 @@
 package Greedy;
-//°Å½º¸§µ·
+//ï¿½Å½ï¿½ï¿½ï¿½ï¿½ï¿½
 import java.util.*;
 
 public class change {

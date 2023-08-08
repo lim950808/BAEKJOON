@@ -2,7 +2,7 @@ package Implementation;
 
 import java.util.Scanner;
 
-interface P2738_행렬덧셈 {
+public class P2738_행렬덧셈 {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
 

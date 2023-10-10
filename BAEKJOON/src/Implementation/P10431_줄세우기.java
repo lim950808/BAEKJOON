@@ -33,6 +33,7 @@ public class P10431_줄세우기 {
                 }
             }
 
+            System.out.println("각각의 테스트 케이스에 대해 테스트 케이스의 번호와 학생들이 뒤로 물러난 걸음 수의 총합을 공백으로 구분하여 출력 : ");
             System.out.println(T + " " + cnt);
         }
     }
